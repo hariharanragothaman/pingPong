@@ -15,11 +15,11 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Pong")
 
 paddleA = Paddle(WHITE, 10, 100)
-paddleA.rect.x = 20
+paddleA.rect.x = 1
 paddleA.rect.y = 200
 
 paddleB = Paddle(WHITE, 10, 100)
-paddleB.rect.x = 670
+paddleB.rect.x = 690
 paddleB.rect.y = 200
 
 ball = Ball(WHITE, 10, 10)
